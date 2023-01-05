@@ -38,7 +38,9 @@ http://192.168.1.221:4000/systemVariable
 
 **Description** : Displays all the system variables
 
-**Body** : 
+**Body** :
+
+```
 {
     "variables": [
         {
@@ -49,6 +51,7 @@ http://192.168.1.221:4000/systemVariable
         }
     ]
 }
+```
 
 **URL**:
 
@@ -68,6 +71,61 @@ http://192.168.1.221:4000/systemVariable
             "value": 1
         },
         "createdAt": "2022-11-16T11:00:53.450Z"
+    }
+}
+```
+
+# 3.) PATCH System Variable
+
+**Description** : Helps you update the system variables.
+
+**Body**:
+
+```
+{
+    "variables": [
+        {
+            "name": "Game Extention",
+            "details": {
+                "value": 1
+            }
+        }
+    ]
+}
+```
+
+**URL**:
+
+```
+http://192.168.1.221:4000/systemVariable
+```
+
+# 4.) DELETE System Variable
+
+**Description** : Helps you to delete the sytem variable.
+
+**Body**:
+
+```
+{
+    "ids": [1,2,3]
+}
+```
+
+**URL**:
+
+```
+http://192.168.1.221:4000/systemVariable
+```
+
+**Output**:
+
+```
+{
+    "success": true,
+    "data": {
+        "raw": [],
+        "affected": 3
     }
 }
 ```
