@@ -10,7 +10,7 @@ This component allows you to create time intervals, view all the intervals as we
 
 **Description** : Displays all the time intervals.
 
-**Params/Body** : -
+**Params** : -
 
 **URL**:
 

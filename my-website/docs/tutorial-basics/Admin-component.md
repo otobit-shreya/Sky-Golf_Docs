@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Admin Component
 
-The admin component allows to register the staff, creates internal user.
+The admin component allows to register the staffor to create an internal user.
 
 # 1.) POST Staff
 

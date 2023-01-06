@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # User Component
 
-The User Component allows you to create a list of users, create different roles for the users and allows you to
+The User Component allows you to create a list of users, create different roles for the users and allows you to view and update them.
 
 # 1.) GET All Users
 
@@ -78,7 +78,7 @@ http://192.168.1.221:4000/user/search
 
 **Description** : Gets user by its role
 
-**Params/body** : -
+**Params** : -
 
 **URL**:
 
@@ -110,7 +110,7 @@ http://192.168.1.221:4000/user/role
 
 **Description** : Get user by id
 
-**Params/body** : -
+**Params** : -
 
 **URL**:
 
