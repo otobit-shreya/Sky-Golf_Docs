@@ -47,7 +47,7 @@ http://192.168.1.221:4000/ant
 
 # 1.) POST antennas
 
-**Description** : Allos you to create antenna related information.
+**Description** : Allows you to create antenna related information.
 
 **Body** :
 ```

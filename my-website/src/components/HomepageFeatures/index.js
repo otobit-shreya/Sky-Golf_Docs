@@ -23,11 +23,11 @@ const FeatureList = [
     ),
   },
   {
-    title: "Pick your Game and Smash it",
+    title: "Pick your Game",
     Svg: require("@site/static/img/g1.svg").default,
     description: (
       <>
-       Enjoy your Game! We hope that you had an Amazing experience.
+       Pick your game and Smash it! We hope that you had an Amazing experience.
       </>
     ),
   },
