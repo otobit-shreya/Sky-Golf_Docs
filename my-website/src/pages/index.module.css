@@ -5,7 +5,8 @@
 
 .heroBanner {
   padding: 20rem;
-  background-position-y:bottom;
+  animation: animate infinite 3s;
+  background-position-y:top;
   background-size:cover;
   background-repeat: no-repeat;
   text-align: center;
